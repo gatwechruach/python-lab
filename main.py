@@ -1,4 +1,4 @@
-name = input("Gatwech Ruach Karkuon: ")
+name = input("Enter your name: ")
 number = float(input("Enter a number: "))
 print("Square:", square(number))
 print(greet(name))
