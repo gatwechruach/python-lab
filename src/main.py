@@ -1,12 +1,9 @@
-from utils import square, is_even, celsius_to_fahrenheit
-
+name = input("Enter your name: ")
 number = float(input("Enter a number: "))
-
 print("Square:", square(number))
-
+print(greet(name))
 if is_even(number):
-   print("The number is even.")
+    print("The number is even.")
 else:
     print("The number is odd.")
-
-print("Fahrenheit:", celsius_to_fahrenheit(number))
+    print("Fahrenheit equivalent:", celsius_to_fahrenheit(number))
